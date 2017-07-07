@@ -4,9 +4,6 @@ etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
 etc/acdbdata/MTP/MTP_Handset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
-# Audio
-etc/mixer_paths.xml
-
 # Camera
 etc/flashled_calc_parameters.cfg
 lib/libcald_hal.so
@@ -37,18 +34,11 @@ vendor/lib/liboemcamera.so
 # Charger
 bin/chargemon
 
-# Illumination
-bin/illumination_service
-
 # Sensors
 bin/sensors.qcom
 etc/sensor_def_qcomdev.conf
 etc/sensors_calib.conf
 vendor/lib/libsensor1.so
-
-# Sysmon
-etc/sysmon.cfg
-lib/libsysmon_jni.so
 
 # TA
 bin/updatemiscta
